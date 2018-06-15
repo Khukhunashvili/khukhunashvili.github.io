@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100%;
+  background: black;
+}
+
+#particles-js {
+  height: 100vh;
+}
+
+.intro {
+  position: relative;
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 70%;
+  border-radius: 50%;
+}
