@@ -1,0 +1,19 @@
+.fa {
+  color: #fff;
+}
+.fa-facebook-square:hover {
+  color: #3b5998;
+  transition: 0.3s;
+}
+.fa-linkedin-square:hover {
+  color: #0077b5;
+  transition: 0.3s;
+}
+.fa-github:hover {
+  color: #000;
+  transition: 0.3s;
+}
+.fa-address-card:hover {
+  color: #eeff00;
+  transition: 0.3s;
+}

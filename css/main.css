@@ -1,7 +1,8 @@
 body {
   margin: 0;
   height: 100%;
-  background: black;
+  background: #3B3251;
+  color: white;
 }
 
 #particles-js {
@@ -25,4 +26,12 @@ body {
 img {
   width: 70%;
   border-radius: 50%;
+}
+
+.scroll-hint-container {
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translate(-50%);
+  margin: 0 auto;
 }
