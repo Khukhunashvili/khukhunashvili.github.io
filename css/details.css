@@ -1,0 +1,21 @@
+.title {
+  padding-top: 50px;
+  color: #FF7886;
+}
+
+.sub-title {
+  padding-top: 20px;
+  color: #FF7886;
+}
+
+.section {
+  padding-bottom: 75px;
+}
+
+.para-hint {
+  font-weight: bold;
+}
+
+.inner-p {
+  padding-left: 40px;
+}
