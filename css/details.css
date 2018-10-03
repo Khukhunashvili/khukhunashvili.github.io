@@ -1,6 +1,7 @@
 .title {
   padding-top: 50px;
   color: #FF7886;
+  font-weight: bold;
 }
 
 .sub-title {
@@ -18,4 +19,13 @@
 
 .inner-p {
   padding-left: 40px;
+}
+
+.table-img-holder {
+  width: 25%;
+}
+
+.table-img {
+  width: 50%;
+  float: center;
 }
