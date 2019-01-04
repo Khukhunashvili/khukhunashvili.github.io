@@ -9,7 +9,7 @@ body {
 }
 
 .top-left-bg {
-  width: 25%;  
+  width: 30%;  
   position: absolute;
   top: 0;
   left: 0;
@@ -17,28 +17,34 @@ body {
 }
 
 .bottom-right-bg {
-  width: 25%;
+  width: 30%;
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: 1;
 }
 
-.navbar-transparent {
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 25px 75px;
-  font-size: 1.5rem;
+.intro-wrapper {
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 
-.nav-link {
-  color: white;
-  margin: 0 15px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0);
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
+.intro-wrapper .row {
+  margin: 0 auto;
+  display: flex;
+  align-items: center; 
+}
+.red-text {
+  color: #EB3158;
 }
 
-.nav-link:hover {
-  color: white;
-  border-bottom: 2px solid white;
+.intro-details .fa {
+  margin: 20px 10px;
+  font-size: 2.3rem;
+  color: #EB3158;
+
 }
