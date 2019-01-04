@@ -1,6 +1,44 @@
 body {
   margin: 0;
   height: 100%;
-  background: #F0F0F0;
+  background: #141A1C;
+  background-image: url("../images/vectors.png");
+  background-repeat: repeat;
+  background-size: 250px;
   color: white;
+}
+
+.top-left-bg {
+  width: 25%;  
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.bottom-right-bg {
+  width: 25%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 25px 75px;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 15px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: white;
+  border-bottom: 2px solid white;
 }
