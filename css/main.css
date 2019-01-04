@@ -1,40 +1,6 @@
 body {
   margin: 0;
   height: 100%;
-  background: #3B3251;
+  background: #F0F0F0;
   color: white;
-}
-
-#particles-js {
-  height: 100vh;
-}
-
-.intro {
-  position: relative;
-  background-image: url('../images/background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.info-container {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-img {
-  width: 50%;
-  border-radius: 50%;
-  margin: 0 auto;
-  display: block;
-}
-
-.scroll-hint-container {
-  position: absolute;
-  left: 50%;
-  bottom: 5px;
-  transform: translate(-50%);
-  margin: 0 auto;
 }
