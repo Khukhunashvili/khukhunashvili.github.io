@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Saira');
+
 body {
   margin: 0;
   height: 100%;
@@ -6,6 +8,7 @@ body {
   background-repeat: repeat;
   background-size: 250px;
   color: white;
+  font-family: 'Saira';
 }
 
 .top-left-bg {
@@ -40,6 +43,7 @@ body {
 }
 .red-text {
   color: #EB3158;
+  font-weight: bold;
 }
 
 .scroll-hint {
