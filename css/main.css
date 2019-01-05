@@ -9,7 +9,7 @@ body {
 }
 
 .top-left-bg {
-  width: 30%;  
+  width: 30%;
   position: absolute;
   top: 0;
   left: 0;
@@ -36,17 +36,10 @@ body {
 .intro-wrapper .row {
   margin: 0 auto;
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 .red-text {
   color: #EB3158;
-}
-
-.intro-details .fa {
-  margin: 20px 10px;
-  font-size: 2.3rem;
-  color: #EB3158;
-
 }
 
 .scroll-hint {
