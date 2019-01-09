@@ -61,4 +61,20 @@ body {
 
 section {
   min-height: 100vh;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.card .btn {
+  background: #EB3158;
+  border: 1px solid #EB3158;
+  transition: all 0.4s;
+}
+
+.card .btn:hover {
+  margin-left: 10px;
 }
