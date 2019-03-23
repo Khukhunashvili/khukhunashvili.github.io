@@ -2,4 +2,9 @@ body, html {
   margin: 0;
   padding: 0;
   background: #111111;
+  color: white;
+}
+
+#fp-nav ul li .active span, .fp-slidesNav ul li a span{
+  background: #F80053;
 }
