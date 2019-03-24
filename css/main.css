@@ -9,6 +9,10 @@ body, html {
   background: #F80053;
 }
 
+* {
+  color: white;
+}
+
 .red {
   color: #F80053;
   font-weight: bold;

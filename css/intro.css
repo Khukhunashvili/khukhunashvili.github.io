@@ -1,0 +1,41 @@
+.wrapper {
+  display: table;
+  width: 100%;
+}
+
+.title {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 70px;
+}
+
+.paragraph {
+  margin-top: 50px;
+}
+
+.body {
+  margin: 100px 50px;
+}
+
+.body h3 {
+  margin-top: 10px;
+}
+
+.full-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: fill;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+  font-size: 1.4rem;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #F80053;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
