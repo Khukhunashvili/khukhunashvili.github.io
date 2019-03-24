@@ -26,12 +26,12 @@
   object-fit: fill;
 }
 
-ul {
+.awards {
   list-style: none; /* Remove default bullets */
   font-size: 1.4rem;
 }
 
-ul li::before {
+.awards li::before {
   content: "\2022";
   color: #F80053;
   font-weight: bold;
