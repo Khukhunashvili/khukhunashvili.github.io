@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Gotham Pro Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gotham Pro Medium'), url('GothaProMed.woff') format('woff');
+}
