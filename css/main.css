@@ -58,6 +58,10 @@ body {
   margin-top: 50px;
 }
 
+.details {
+  height: 100vh;
+}
+
 .details h3 {
   margin: 20px 20px;
 }
@@ -74,6 +78,6 @@ body {
 }
 
 .side-img {
-  width: 100%;
-  height: 100vh;
+  background: url("../images/atgoogle.jpg");
+  background-position: right;
 }
