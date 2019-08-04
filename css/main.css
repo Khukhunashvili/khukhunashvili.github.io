@@ -16,6 +16,11 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
+  display: none;
+}
+
+#name {
+  display: none;
 }
 
 .bottom-right-bg {
@@ -24,6 +29,7 @@ body {
   bottom: 0;
   right: 0;
   z-index: 1;
+  display: none;
 }
 
 .intro-wrapper {
@@ -80,4 +86,5 @@ body {
 .side-img {
   background: url("../images/atgoogle.jpg");
   background-position: right;
+  background-repeat: no-repeat;
 }

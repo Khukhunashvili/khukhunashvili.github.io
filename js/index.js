@@ -1,3 +1,7 @@
+$(".top-left-bg").fadeIn();
+$(".bottom-right-bg").fadeIn();
+$("#name").slideDown();
+
 new fullpage('#fullpage', {
 	//options here
 	autoScrolling:true,
@@ -5,7 +9,7 @@ new fullpage('#fullpage', {
 });
 
 var typed = new Typed('#typed', {
-	strings: ["Software Engineer", "Student", "Open Source Evangelist"],
+	strings: ["Software Engineer", "Student @ <span class='red-text'> IBSU </span>", "Open Source Evangelist"],
 	typeSpeed: 40,
   backSpeed: 40,
   backDelay: 1000,
