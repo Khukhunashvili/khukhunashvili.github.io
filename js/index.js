@@ -3,3 +3,12 @@ new fullpage('#fullpage', {
 	autoScrolling:true,
 	scrollHorizontally: true
 });
+
+var typed = new Typed('#typed', {
+	strings: ["Software Engineer", "Student", "Open Source Evangelist"],
+	typeSpeed: 40,
+  backSpeed: 40,
+  backDelay: 1000,
+  startDelay: 1000,
+    loop: true,
+});
