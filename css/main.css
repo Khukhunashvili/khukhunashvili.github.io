@@ -60,7 +60,7 @@ body {
   padding-bottom: 20px;
 }
 
-.title {
+.header {
   margin-top: 50px;
 }
 
@@ -68,8 +68,8 @@ body {
   height: 100vh;
 }
 
-.details h3 {
-  margin: 20px 20px;
+.details h4 {
+  margin: 10px 20px;
 }
 
 .red {
@@ -77,8 +77,8 @@ body {
 }
 
 .skills {
-  margin: 20px;
-  border-spacing: 15px;
+  margin: 5px 20px;
+  border-spacing: 10px;
   border-collapse: separate;
   color: rgba(255, 255, 255, 0.6);
 }

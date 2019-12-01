@@ -9,7 +9,7 @@ new fullpage('#fullpage', {
 });
 
 var typed = new Typed('#typed', {
-	strings: ["Software Engineer", "Student @ <span class='red-text'> ???? </span>", "Open Source Evangelist"],
+	strings: ["SWE Intern @ <span class='red-text'> AzRy LLC </span>", "Student @ <span class='red-text'> IBSU </span>", "Open Source Evangelist"],
 	typeSpeed: 40,
   backSpeed: 40,
   backDelay: 1000,
